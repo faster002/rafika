@@ -1,0 +1,208 @@
+@media (max-width : 1823px){
+    .home-page .container h1{
+        font-size: 8em 
+    }
+}
+
+@media (max-width : 1664px){
+    .home-page .container h1{
+        font-size: 8em 
+    }
+    .home-page .container p:nth-child(3){
+        font-size: 1.8em 
+ 
+    }
+    .home-page .container .link a{
+        font-size: 1.8em;
+    }
+}
+@media (max-width : 1484px){
+    .home-page .container{
+        width: 60%;
+    }
+    .home-page .image{
+        width: 40%;
+    }
+    .produit .container .all-box{
+        width: 90%;
+        height: 90%;
+    }
+
+
+}
+@media (max-width : 1205px){
+
+    .home-page .container h1{
+        font-size: 7em 
+    }
+    .home-page .container p:first-child{
+        font-size: 2.5em;
+    }
+    .home-page .container p:nth-child(3){
+        font-size: 1.8em 
+ 
+    }
+    .home-page .container .link a{
+        font-size: 1.7em;
+    }
+}
+@media (max-width : 1055px){
+.home-page{
+flex-direction: column;
+    height: 130vh;
+}
+.home-page .container{
+    width: 100%;
+    padding: 9em 0em;
+}
+.home-page  .image{
+    width: 100%;
+    
+}
+}
+@media (max-width : 860px){
+    .produit .container {
+        padding: 2em 0;
+        top: 5em;
+    }
+    .produit .container .all-box{
+        width: 80%;
+        height: 100%;
+        grid-template-columns: repeat(4 , 1fr);
+     
+    }
+    .produit .container .all-box .box:nth-child(1){
+        grid-column: span 2;
+        grid-row: span 2;
+}
+.produit .container .all-box .box:nth-child(2){
+    grid-column: span 2 ;
+    grid-row: span 3;
+}
+.produit .container .all-box .box:nth-child(5){
+    grid-column: span  4;
+    grid-row: span 2 ;
+}
+}
+@media (max-width : 800px){
+    .produit .container .all-box{
+        width: 98%;
+        height: 100%;
+        grid-template-columns: repeat(4 , 1fr);
+    }
+}
+
+@media (max-width : 640px){
+
+    .home-page .container h1{
+        font-size: 6em 
+    }
+    .home-page .container p:first-child{
+        font-size: 2.2em;
+    }
+    .home-page .container p:nth-child(3){
+        font-size: 1.7em ;
+        line-height: 1.7;
+        padding: 1em 0.2em;
+ 
+    }
+    .home-page .container .link a{
+        font-size: 1.6em;
+    }
+    .produit .container{
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
+    .produit .container .all-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        gap: 2em;
+        padding: 2em 0;
+     
+    }
+    .produit .container .all-box .box {
+        width: 20em ;
+        height:15em;
+    }
+
+}
+@media (max-width : 800px){
+    .produit .container .all-box{
+        width: 98%;
+        height: 100%;
+        grid-template-columns: repeat(4 , 1fr);
+    }
+}
+@media (max-width : 541px){
+
+    .home-page .container h1{
+        font-size: 5em;
+        text-align: center;
+    }
+    .home-page .container p:first-child{
+        font-size: 2em;
+    }
+    .home-page .container p:nth-child(3){
+        font-size: 1.5em ;
+        line-height: 1.7;
+        padding: 1em 0.2em;
+ 
+    }
+    .home-page .container .link a{
+        font-size: 1.5em;
+    }
+    .home-page .container .link{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media(max-width:452px){
+    .produit .container{
+        width: 95%; 
+    }
+    .produit .container .all-box .box{
+        width: 17em;
+    }
+    .produit .title{
+        padding: 1em 0;
+        font-size: 1.7em;
+        text-align: center;
+
+}
+
+@media (max-width:344px){
+        .home-page .container h1{
+            font-size: 5em;
+            text-align: center;
+        }
+        .home-page .container p:first-child{
+            font-size: 1.7em;
+        }
+        .home-page .container .link a{
+            font-size: 1.4em;
+        }
+    }
+@media (max-width:315px){
+    .produit .container{
+        width: 90%; 
+    }
+    .produit .container .all-box .box{
+        width: 15em;
+    }
+    }
+
+
+@media (max-height :800px){
+    .home-page .container{
+    height:70%;
+    }
+    .home-page  .image{
+height:30%;    
+    }
+
+}
